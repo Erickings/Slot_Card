@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\BEEP -I..\HARDWARE\LCD -I..\HARDWARE\NFC -I..\HARDWARE\STATUS -I..\HARDWARE\HSJ600 -I..\HARDWARE\USER_UART -I..\HARDWARE\LCD12232 -I..\HARDWARE\TIMER -I..\HARDWARE\RTC -I..\HARDWARE\WDG
+-I C:\Users\Eric\Desktop\Ë¢¿¨20181220\USER\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\exti.o --omf_browse ..\obj\exti.crf --depend ..\obj\exti.d "..\HARDWARE\EXTI\exti.c"
